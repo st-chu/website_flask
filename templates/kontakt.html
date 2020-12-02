@@ -1,0 +1,17 @@
+{% extends "parent.html" %}
+{% block title %} Space oddity {% endblock %}
+{% block ch1 %}
+     <a href="/mypage/me">O mnie</a>
+{% endblock %}
+{% block ch3 %}
+  <h1 class="kontakt">Kontakt</h1>
+            <ul>
+                <li>e-mail: <a href="mailto:space.oddity@universe.space" class="email">space.oddity@universe.space</a></li>
+                <li>telefon: +88 888 888 888</li>
+            </ul>
+            <h2>Wyślij wiadomość</h2>
+            <form action="" method="POST">
+                <textarea name="message" placeholder="Napisz wiadomość"></textarea>
+                <button type="submit"  name="wyślij">WYŚLIJ</button>
+            </form>
+{% endblock %}

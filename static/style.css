@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    font-family: Tahoma;
+}
+
+.main_panel{
+    font-size: 30px;
+    color: #d400ffe8;
+    text-align: center;
+}
+.mother{
+    display: flex;
+    justify-content: center;
+}
+.child1{
+    color: white;
+    width: 160px;
+}
+.child2{
+    display: block;
+    width: 300px;
+}
+.child3{
+    color: white;
+    margin-top: 20px;
+    width: 300px;
+}
+a{
+    font-size: 40px;
+    color: #d400ffe8;
+}
+.kontakt{
+    color: gold;
+    font-size:  40px;
+}
+form{
+    width: 300px;
+}
+textarea{
+    width: 300px;
+    height: 120px;
+    resize: none;
+    border: gold 5px dotted;
+    background-color: black;
+    color: white;
+}
+button{
+    border: solid 1px gold;
+    width: 315px;
+    background-color: black;
+    color: white;
+}
+p{
+    width: 330px;
+}
+.name{
+    color:  #61f8be
+}
+.email{
+    font-size: 17px;
+    color: #61f8be;
+}

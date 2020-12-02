@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div class="main_panel">
+        <h1>Witaj na mojej stronie domowej</h1>
+    </div>
+    <div class="mother">
+        <div class="child1">{% block ch1 %}{% endblock %}
+        </div>
+        <div class="child2">
+            <img src="{{url_for('static', filename='ja_w_kosmosie.jpg')}}"alt="ja w kosmosie" title="Space oddity" width="240">
+        </div>
+        <div class="child3">
+            {% block ch3 %}{% endblock %}
+        </div>
+    </div>
+
+</body>
+</html>
