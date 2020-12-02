@@ -10,7 +10,7 @@ def contact():
         return render_template('kontakt.html')
     elif request.method == 'POST':
         print("We received POST")
-        print(request.form)
+        print(request.form['message'])
         return render_template('kontakt.html')
 
 
